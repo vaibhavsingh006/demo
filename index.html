@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <link rel="icon" href="./IMAGES/logo-icon.png">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+    </style>
+
+
+    <!-- Bootstrap Css Link Here -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Bootstrap JavaScript Here.... -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Online Icon Link Here -->
+    <script src="https://kit.fontawesome.com/6d4ad1cd1d.js" crossorigin="anonymous"></script>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./CSS/header.css">
+    <link rel="stylesheet" href="./CSS/footer.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/utility.css">
+</head>
+
+<body>
+
+    <!-- Header code start -->
+    <header class="header flex-center-between " id="header">
+        <div class="logo">
+            <a class="uper" href="#"> <img src="./IMAGES/TP-logo.png" alt="GrowUpNext" id="header-logo" /></a>
+            <a class="nonehai" href="#"> <img src="./IMAGES/TP-logo.png" alt="GrowUpNext" id="header-logo" /></a>
+        </div>
+        <nav class="menu">
+            <ul class="links-list flex-center nav-list">
+                <div class="arrownavbar">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <li class="links-list-items advanceClick">
+                    <a href="#" id="Design">Car Tyres <i class="fa-solid fa-angle-right arrowtwo"></i></a>
+                    <div class="header-side-links flex absolute advanceClickSo" id="" sub-Link>
+
+                        <ul class="about-links-Box">
+                            <li class="mb-2">
+                                <p href="#"> Popular Car Tyre Brands</p>
+                            </li>
+                            <li class="mb-2"><a href="#">MRF Tyres</a></li>
+                            <li class="mb-2"><a href="#">CEAT Tyres</a></li>
+                            <li class="mb-2"><a href="#">Goodyear Tyres</a></li>
+                            <li class="mb-2"><a href="#">Apollo Tyres</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="links-list-items advanceClick" id="about">
+                    <a href="#" id="about">Bike Tyres <i class="fa-solid fa-angle-right arrowtwo"></i></a>
+                    <div class="header-side-links flex absolute advanceClickSo" id="" sub-Link>
+
+                        <ul class="about-links-Box">
+                            <li class="mb-2">
+                                <a href="#">Popular Bike Tyre Brands</a>
+                            </li>
+                            <li class="mb-2"><a href="#">MRF Tyres</a></li>
+                            <li class="mb-2"><a href="#">CEAT Tyres</a></li>
+                            <li class="mb-2"><a href="#">Goodyear Tyres</a></li>
+                            <li class="mb-2"><a href="#">Apollo Tyres</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="links-list-items advanceClick">
+                    <a href="#" id="career">Commercial Tyres<i class="fa-solid fa-angle-right arrowtwo"></i></a>
+                    <div class="header-side-links flex absolute advanceClickSo" id="" sub-Link>
+
+                        <ul class="about-links-Box">
+                            <li class="mb-2">
+                                <a href="#">All Commercial tyres</a>
+                            </li>
+                            <!-- <li class="mb-2"><a href="#">Psd To Html</a></li>
+                            <li class="mb-2"><a href="#">Psd To Html</a></li>
+                            <li class="mb-2"><a href="#">Psd To Html</a></li> -->
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="links-list-items advanceClick">
+                    <a href="#" id="career">Accessories <i class="fa-solid fa-angle-right arrowtwo"></i></a>
+                    <div class="header-side-links flex absolute advanceClickSo" id="" sub-Link>
+                        <ul class="about-links-Box">
+                            <li class="mb-2"><a href="#">Accessories </a></li>
+                            <li class="mb-2"><a href="#">Batteries</a></li>
+                            <li class="mb-2"><a href="#">Psd To Html</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="links-list-items advanceClick">
+                    <a href="#" id="career">More <i class="fa-solid fa-angle-right arrowtwo"></i></a>
+                    <div class="header-side-links flex absolute advanceClickSo" id="" sub-Link>
+                        <ul class="about-links-Box">
+                            <li class="mb-2"><a href="#">Cash Back Offer </a></li>
+                            <li class="mb-2"><a href="#">Accessories </a></li>
+                            <li class="mb-2"><a href="#">Batteries</a></li>
+                            <li class="mb-2"><a href="#">Psd To Html</a></li>
+                        </ul>
+
+                    </div>
+                </li>
+                <li class="links-list-items">
+                    <a href="<?= home_path() ?>/about" id="contact">Tyre Pressure</a>
+
+                </li>
+
+
+            </ul>
+        </nav>
+        <button class="basic-button header-btn">Log In</button>
+
+        <!-- Navbar Phone -->
+        <button class="header-button">
+            <div class="line"></div>
+        </button>
+    </header>
+    <!-- Header code end -->
+
+    <!-- first section -->
+    <div class="first-section">
+        <div class="first-section-child flex-center-between ">
+            <div class="first-section-left">
+                <img src="./IMAGES/section-one-img.jpg" alt="shop image">
+                <!-- <img src="./IMAGES/section-one-img.jpg" alt="shop image">
+                <img src="./IMAGES/section-one-img.jpg" alt="shop image">
+                <img src="./IMAGES/section-one-img.jpg" alt="shop image"> -->
+            </div>
+            <div class="first-section-right">
+                <div class="first-section-right-details">
+                    <h1>SHREE HEMKUNT TYRES AND SERVICES</h1>
+                    <div class="first-section-right-review flex-center-between">
+                        <div>
+                            <p class="Verified">Verified</p>
+                        </div>
+                        <div class="star margin-b-1">
+                            <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                            <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                            <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                            <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                            <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        </div>
+                    </div>
+                    <p>PLOT NUMBER-09 GROUND FLOOR CISF CAMPUS ROAD, AHINSA KHAND-02 INDIRAPURAM, Ghaziabad, Uttar
+                        Pradesh, 201014</p>
+                    <p>Open - Monday to Sunday - 10:00AM to 8:00PM</p>
+                </div>
+
+                <button class="basic-button mt-2">Get Directions</button>
+            </div>
+        </div>
+        <!-- slider -->
+
+        <div class="container">
+            <i id="left" class="fa-solid fa-angle-left button"></i>
+            <div class="carausel">
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-box text-left">
+                    <div class="star margin-b-1">
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                        <i class="fa-solid fa-star" style="color: #ebeb26;"></i>
+                    </div>
+                    <p class="section-para margin-b-1 overflow-text">I recently utilized the lab testing services
+                        offered by [Acculaboratories] and was thoroughly impressed with the experience. As someone
+                        who values accuracy and efficiency in medical testing, I found their services to be
+                        exceptional.</p>
+                    <div class="flex-center">
+                        <img class="m-r-1" src="./IMAGES/user.png" alt="iamge load failed" />
+                        <div>
+                            <h5>Mr. Halim Dawn</h5>
+                            <h6>Founder, TrashTheme</h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <i id="right" class="fa-solid fa-angle-right button"></i>
+        </div>
+
+        <!-- slider -->
+    </div>
+    <!-- first section -->
+
+    <!-- second section -->
+    <div class="brand-slider">
+        <h2>Brands Logo</h2>
+        <div class="logos-parent section-padding" data-aos="fade-up">
+            <div class="logos">
+                <div class="logos-slide">
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-1.svg" alt="company">
+                        </div>
+                    </div>
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-2.svg" alt="company">
+                        </div>
+                    </div>
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-3.svg" alt="company">
+                        </div>
+                    </div>
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-4.svg" alt="company">
+                        </div>
+                    </div>
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-1.svg" alt="company">
+                        </div>
+                    </div>
+                    <div class="first-slide">
+                        <div class="company-img">
+                            <img class="wh-100" src="./IMAGES/partner-logo-2.svg" alt="company">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class=" powerdTop none">
+            <div class="powerdImg">
+                <img class="wh-100" src="<?= get_img() ?>ikea.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>olx.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>ubs.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>volkswagen.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>ikea.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>olx.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>ubs.svg" alt="trust">
+                <img class="wh-100" src="<?= get_img() ?>volkswagen.svg" alt="trust">
+            </div>
+        </div>
+    </div>
+    <!-- second section -->
+
+    <!-- thrid section -->
+    <div class="service">
+        <div class="service-section-parent">
+            <h2 class="mb-2">Services offered by this dealer</h2>
+            <div class="service-section-child gap-1 flex-wrap ">
+                <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                    <div>
+                        <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                    </div>
+                    <p class="text-center">Wheel Balancing</p>
+                    <button class="basic-button text-center service-button">Book Now</button>
+                </div>
+                <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                    <div>
+                        <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                    </div>
+                    <p class="text-center">Wheel Balancing</p>
+                    <button class="basic-button text-center service-button">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- thrid section -->
+
+    <!-- fourth section -->
+    <div class="dealer">
+        <div class="flex-center-between">
+            <h1 class="mb-2">Tyres sold by this Dealer</h1>
+            <div>
+
+            </div>
+        </div>
+        <div class="service-section-child gap-1 flex-wrap justify mb-3">
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+            <div class="service-section-box flex-center-center column mr-2 mb-2 gap-1">
+                <div>
+                    <img src="./IMAGES/section-one-img.jpg" class="wh-100" alt="service">
+                </div>
+                <p class="text-center">Wheel Balancing</p>
+                <button class="basic-button text-center service-button">Book Now</button>
+            </div>
+        </div>
+        <div class="text-center mt-2">
+            <button class="basic-button viewBtn">View More</button>
+        </div>
+    </div>
+    <!-- fourth section -->
+
+
+    <!-- fifth section -->
+
+    <div class="method">
+        <h1>Payment Mode</h1>
+        <ul class="py-2">
+            <li class="flex pt-1"><span><i class="fa-solid fa-check flex-center-center"></i></span>
+                <p class="section-para">Deposit to Account</p>
+            </li>
+            <li class="flex pt-1"><span><i class="fa-solid fa-check flex-center-center"></i></span>
+                <p class="section-para">Credit Card/Debit Card</p>
+            </li>
+            <li class="flex pt-1"><span><i class="fa-solid fa-check flex-center-center"></i></span>
+                <p class="section-para">Wallets (PayTM/PhonePe/Amazon etc.)</p>
+            </li>
+            <li class="flex pt-1"><span><i class="fa-solid fa-check flex-center-center"></i></span>
+                <p class="section-para">Net Banking</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- fifth section -->
+
+    <!-- footer here  -->
+
+    <footer>
+        <div class="parent-footer flex justify-between">
+            <div class="left-footer">
+                <div class="left-footer-links flex">
+                    <ul>
+                        <li class="mb-3">All Links</li>
+                        <li class="mb-1"><a href="<?= home_path() ?>">Home</a></li>
+                        <li class="mb-1"><a href="<?= home_path() ?>about">About</a></li>
+                        <li class="mb-1"><a href="<?= home_path() ?>products">Products</a></li>
+                        <li class="mb-1"><a href="<?= home_path() ?>contact">Contact</a></li>
+                    </ul>
+                    <ul>
+                        <li class="mb-3">Get In Touch</li>
+                        <li class="mb-1">call : <span>989883847</span></li>
+                        <li class="mb-1">E Mail : <span>Example@add.com</span></li>
+                        <li class="mb-1">Address : <span>kanpur uttar <br> pradesh indian </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div class="footer-logo">
+                    <img class="wh-100" src="./IMAGES/TP-logo.png" alt="logo">
+                </div>
+                <h3>Tyre Plex</h3>
+                <p>Kanpur, Uttar Pradesh</p>
+            </div>
+        </div>
+        <div class="bottom-footer flex-center-between">
+            <p>Copyright © 2024 TyrePlex. All Rights Reserved.</p>
+            <ul class="flex">
+                <a href="#"><i class="fa-brands fa-square-whatsapp"></i></a>
+                <a href="#"><i class="fa-solid fa-square-phone"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </ul>
+        </div>
+    </footer>
+    <!-- footer here  -->
+
+
+    <script src="./JavaScript/header.js"></script>
+    <script src="./JavaScript/home.js"></script>
+
+    <script>
+        var copy = document.querySelector(".powerdImg").cloneNode(true);
+        document.querySelector(".powerdTop").appendChild(copy);
+
+
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+
+        window.onload = function () {
+            setTimeout(() => {
+                document.getElementsByClassName('powerdImg')[0].classList.add('added')
+                document.getElementsByClassName('powerdImg')[1].classList.add('added')
+                // document.getElementsByClassName('powerdImg')[2].classList.add('added')
+
+
+            }, 1000);
+        }
+        document.getElementsByClassName('logos-slide')[0].classList.add('added')
+        document.getElementsByClassName('logos-slide')[1].classList.add('added')
+    </script>
+
+    <!-- AOS animation script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>
