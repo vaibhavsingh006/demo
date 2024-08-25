@@ -109,7 +109,6 @@
 }
 
 .overflow-text {
-    -webkit-line-clamp: 4;
     overflow-wrap: break-word;
     -webkit-box-orient: vertical;
     display: -webkit-box;
